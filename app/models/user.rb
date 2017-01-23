@@ -1,5 +1,4 @@
 class User < ActiveRecord::Base
-  # Remember to create MIGRATION FILES!
   validates :username, :email, presence: true, uniqueness: true
   validate :password_length
 
