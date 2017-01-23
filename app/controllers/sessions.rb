@@ -21,13 +21,11 @@ post "/sessions" do
     session.delete(:user_id)
     @errors << "Incorrect username"
   end
-  # Actually here display the error messages with parital.
   erb :"/sessions/login"
 end
 
 # DELETE REQUESTS
 
-# Don't forget to test logout early on.
 delete "/sessions" do
   session.delete(:user_id)
   redirect "/"
