@@ -1,8 +1,12 @@
-
-
 ### Mood Spotter
-An app that generates a playlist based on the user's current feeling/emotion. 
-Used Sinatra, Ruby, and Spotify API
+Sinatra, Ruby, Spotify API, Heroku
 
-[See it here on heroku](https://groupymoodproject.herokuapp.com/)
+Project Goal:
+- Assignment: Create an app that utilizes an API
+- App generates a playlist based on a user's current mood
 
+Current Status:
+- Assignment complete
+- Functional with users and playlist generation
+
+[View app here](https://groupymoodproject.herokuapp.com/)
